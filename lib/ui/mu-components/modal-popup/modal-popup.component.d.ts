@@ -1,0 +1,30 @@
+import { OnDestroy, AfterViewInit, Renderer2, ElementRef, ComponentFactoryResolver, ChangeDetectorRef } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { ModalInterface, InjectionParentBase, RunContextBrowser, UiRouter } from '@mubble/browser';
+import { Mubble } from '@mubble/core';
+export declare class ModalPopupComponent extends InjectionParentBase implements AfterViewInit, OnDestroy {
+    private renderer;
+    private ref;
+    true: any;
+    __routeAnimation: boolean;
+    animElem: boolean;
+    onHostClick(): void;
+    onRouteAnimationStart(event: any): void;
+    onRouteAnimationDone(event: any): void;
+    componentContainer: ElementRef;
+    injectAt: any;
+    injectedComponent: ModalInterface;
+    private backPressed;
+    private routeEndProcessed;
+    width: string;
+    className: string;
+    constructor(rc: RunContextBrowser, router: UiRouter, route: ActivatedRoute, componentFactoryResolver: ComponentFactoryResolver, renderer: Renderer2, ref: ChangeDetectorRef);
+    onRouterInit(params: Mubble.uObject<any>): void;
+    ngAfterViewInit(): void;
+    onClick(event: any): void;
+    ignoreScroll(event: any): void;
+    ngOnDestroy(): void;
+    animateClose(): void;
+    onBackPressed(): void;
+    canGoBack(): any;
+}
