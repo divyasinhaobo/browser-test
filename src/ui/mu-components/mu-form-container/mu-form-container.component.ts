@@ -51,7 +51,7 @@ import { DISPLAY_TYPE,
          InputParams,
          SelectionBoxParams,
          MuFormParams
-       }                                  from '@mubble/core/interfaces/app-server-interfaces'
+       }                                  from '@mubble/core'
 import { MuFormOutputParams, 
          FormOutputValue 
        }                                  from '../cmn-inp-cont/cmn-inp-cont-interfaces'

@@ -1,5 +1,5 @@
 import { LocationStrategy, LocationChangeListener } from '@angular/common';
-import { RunContextBrowser } from '@mubble/browser/rc-browser';
+import { RunContextBrowser } from '../../rc-browser';
 export declare class AppLocationStrategy extends LocationStrategy {
     protected rc: RunContextBrowser;
     constructor(rc: RunContextBrowser);

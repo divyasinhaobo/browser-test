@@ -1,9 +1,8 @@
 import { OnInit, EventEmitter, ElementRef, ChangeDetectorRef, SimpleChanges } from '@angular/core';
 import { MatCheckboxChange, MatRadioChange, MatSlideToggleChange, MatCheckbox } from '@angular/material';
 import { FormGroup } from '@angular/forms';
-import { TableHeader, FilterItem, DISPLAY_MODE } from '@mubble/core/interfaces/app-server-interfaces';
-import { RunContextBrowser } from '@mubble/browser/rc-browser';
-import { COL_TYPE } from '@mubble/core';
+import { TableHeader, FilterItem, DISPLAY_MODE, COL_TYPE } from '@mubble/core';
+import { RunContextBrowser } from '../../../rc-browser';
 import { SelectedFilter } from '../filter';
 export interface TableConfig {
     headers: TableHeader[];

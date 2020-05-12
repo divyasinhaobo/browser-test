@@ -1,4 +1,4 @@
-import { RunContextBrowser } from '@mubble/browser/rc-browser';
+import { RunContextBrowser } from "../../rc-browser";
 export declare abstract class TrackableScreen {
     protected rc: RunContextBrowser;
     abstract getRouteName(): string;

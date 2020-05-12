@@ -5,7 +5,7 @@ import { RunContextBrowser } from '../../../rc-browser';
 import { MatSelectChange, MatDatepickerInputEvent, MatAutocompleteSelectedEvent, MatDatepicker, MatRadioChange, MatCheckboxChange, MatSlideToggleChange, MatButtonToggleChange } from '@angular/material';
 import { Observable } from 'rxjs';
 import { FileUploadComponent, UploadedDocParams } from '../file-upload/file-upload.component';
-import { DISPLAY_TYPE, DISPLAY_MODE, SelectionBoxParams, MuFormParams } from '@mubble/core/interfaces/app-server-interfaces';
+import { DISPLAY_TYPE, DISPLAY_MODE, SelectionBoxParams, MuFormParams } from '@mubble/core';
 import { MuFormOutputParams } from '../cmn-inp-cont/cmn-inp-cont-interfaces';
 export declare class MuFormContainerComponent implements OnChanges {
     protected rc: RunContextBrowser;

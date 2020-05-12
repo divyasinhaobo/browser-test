@@ -1,5 +1,5 @@
 import { PipeTransform, Injector } from '@angular/core';
-import { RunContextBrowser } from '@mubble/browser/rc-browser';
+import { RunContextBrowser } from '../../../rc-browser';
 export declare class GenericPipe implements PipeTransform {
     private rc;
     private injector;
