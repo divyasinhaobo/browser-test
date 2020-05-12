@@ -1,5 +1,5 @@
 import { RunContextBrowser } from "..";
-import { Mubble } from "../../core";
+import { Mubble } from "@mubble/core";
 export declare class StorageProvider {
     setGlobalKeyValue(rc: RunContextBrowser, key: string, value: string): void;
     getGlobalKeyValue(rc: RunContextBrowser, key: string): Promise<string>;

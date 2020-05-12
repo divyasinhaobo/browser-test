@@ -1,4 +1,4 @@
-import { Mubble } from '../../core';
+import { Mubble } from '@mubble/core';
 export declare class BaseUtility {
     expandTemplate(template: string, data: Mubble.uObject<any>): string;
     expandTemplateObj(templateObj: any, data: Mubble.uObject<any>): any;

@@ -23,7 +23,6 @@
       "**/*.spec.ts"
   ],
   "typeAcquisition": {
-    "enable": true,
-    "include": ["../core"]
+    "enable": true
   }
 }
